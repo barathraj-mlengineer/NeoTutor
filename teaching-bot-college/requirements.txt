@@ -1,0 +1,8 @@
+streamlit
+gtts
+groq
+requests
+python-dotenv
+supabase
+pydub
+ffmpeg-python
