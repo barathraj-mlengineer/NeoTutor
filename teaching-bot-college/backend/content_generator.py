@@ -11,7 +11,7 @@ def generate_content(topic):
     }
     
     payload = {
-        "model": "gemma2-9b-it",  # Make sure this is a valid Groq model
+        "model": "llama-3.3-70b-versatile",  # Make sure this is a valid Groq model
         "messages": [
             {"role": "system", "content": "You are a helpful tutor."},
             {"role": "user", "content": f"Explain the topic '{topic}' in simple language for college students."}
