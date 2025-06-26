@@ -4,7 +4,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 def generate_content(topic):
     # Initialize the Groq LLM client
     llm = ChatGroq(
-        api_key="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",
+        api_key="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",
         model_name="llama3-70b-8192",
         temperature=0.7,
     )
