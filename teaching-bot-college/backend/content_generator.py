@@ -11,7 +11,7 @@ def generate_content(topic):
     }
 
     payload = {
-        "model": "llama3-70b-8192",  # ✅ Valid Groq model
+        "model": "llama3-70b-4096",  # ✅ Valid Groq model
         "messages": [
             {"role": "system", "content": "You are a helpful tutor."},
             {"role": "user", "content": f"Explain the topic '{topic}' in simple language for college students."}
