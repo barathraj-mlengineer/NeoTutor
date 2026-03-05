@@ -2,7 +2,7 @@ import requests
 from utils.config import load_api_key
 
 def generate_content(topic):
-    api_key ="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"  # Or hardcode for now if needed
+    api_key ="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"  # Or hardcode for now if needed
     url = "https://api.groq.com/openai/v1/chat/completions"
 
     headers = {
